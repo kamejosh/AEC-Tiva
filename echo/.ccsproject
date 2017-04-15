@@ -7,9 +7,10 @@
 	<deviceEndianness value="little"/>
 	<codegenToolVersion value="16.9.2.LTS"/>
 	<isElfFormat value="true"/>
+	<connection value="common/targetdb/connections/Stellaris_ICDI_Connection.xml"/>
 	<linkerCommandFile value="tm4c1294ncpdt.cmd"/>
 	<rts value="libc.a"/>
 	<createSlaveProjects value=""/>
-	<templateProperties value="id=com.ti.ccstudio.project.templates.helloWorld,"/>
-	<filesToOpen value="hello.c,"/>
+	<templateProperties value="id=com.ti.common.project.core.emptyProjectWithMainTemplate,"/>
+	<filesToOpen value="main.c,"/>
 </projectOptions>
