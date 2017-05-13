@@ -1,8 +1,8 @@
 #include <stdbool.h>
 #include <stdint.h>
-#include <stdlib.h>
+//#include <stdlib.h>
 #include "inc/hw_memmap.h"
-#include "driverlib/adc.h"
+//#include "driverlib/adc.h"
 #include "driverlib/gpio.h"
 #include "driverlib/pin_map.h"
 #include "driverlib/sysctl.h"
@@ -157,10 +157,6 @@ int main(void)
                 cancelEcho(&micSignal, &noise[i], &output);
                 transfer = (int)(output * 100000000);
                 UARTprintf("%d\n", transfer);
-                if(i == 199)
-                {
-                    i = i;
-                }
             }
         }
 
